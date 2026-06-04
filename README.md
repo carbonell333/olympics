@@ -18,13 +18,20 @@ La pregunta principal que guía la visualización es:
 
 A partir de esta pregunta, el proyecto explora diferencias en altura, peso, IMC y edad entre disciplinas, así como la posible relación entre el perfil biométrico y el rendimiento competitivo.
 
-## Conjunto de datos
+## Dataset original
 
-El dataset utilizado es:
+El archivo original `olympics.csv` no se incluye en este repositorio por tamaño y por pertenecer a la fuente original.
 
-**120 Years of Olympic Athletes Dataset**
-Fuente: Kaggle
+Para ejecutar el procesamiento, debe descargarse desde Kaggle:
+
+120 Years of Olympic Athletes Dataset  
 https://www.kaggle.com/datasets/abdullahmeo/120-years-of-olympic-athletes-dataset/data
+
+Una vez descargado, debe colocarse en:
+
+```text
+data/raw/olympics.csv
+```
 
 El archivo principal contiene información sobre atletas olímpicos desde 1896 hasta 2016. Cada fila representa la participación de un atleta en un evento olímpico concreto.
 
