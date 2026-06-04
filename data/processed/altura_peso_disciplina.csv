@@ -1,0 +1,13 @@
+﻿Disciplina,Sexo,altura_mediana,peso_mediano,imc_mediano,n
+Atletismo - Lanzamientos,Hombres,189.0,110.0,30.56,1810
+Atletismo - Lanzamientos,Mujeres,176.0,82.0,26.12,1346
+Atletismo - Resistencia,Hombres,175.0,63.0,20.3,4623
+Atletismo - Resistencia,Mujeres,165.0,51.0,18.75,2305
+Atletismo - Velocidad,Hombres,180.0,73.0,22.53,6677
+Atletismo - Velocidad,Mujeres,168.0,58.0,20.44,4417
+Gimnasia,Hombres,168.0,63.0,22.41,10039
+Gimnasia,Mujeres,157.0,48.0,19.33,7157
+Halterofilia,Hombres,170.0,77.0,27.13,2392
+Halterofilia,Mujeres,160.0,63.0,24.57,460
+Natacion,Hombres,185.0,78.0,22.86,10112
+Natacion,Mujeres,172.0,61.0,20.76,8382
