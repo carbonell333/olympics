@@ -7,7 +7,7 @@ Este modulo contiene funciones reutilizables para:
 - calcular variables derivadas,
 - clasificar disciplinas deportivas,
 - filtrar los datos biometricos,
-- exportar tablas para Infogram.
+- exportar tablas para Flourish.
 """
 
 from pathlib import Path
@@ -144,7 +144,7 @@ def filtrar_biometria(df: pd.DataFrame) -> pd.DataFrame:
 def exportar_csv(df: pd.DataFrame, ruta_salida: Path) -> None:
     """
     Exporta un DataFrame a CSV usando utf-8-sig para mejorar compatibilidad
-    con Excel e Infogram.
+    con Excel e Flourish.
     """
     ruta_salida.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(ruta_salida, index=False, encoding="utf-8-sig")
