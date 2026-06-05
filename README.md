@@ -6,6 +6,8 @@ Este repositorio contiene el código utilizado para preparar los datos del proye
 
 La visualización final se realiza en **Flourish**, mientras que este repositorio recoge el proceso reproducible de limpieza, transformación y generación de las tablas utilizadas en dicha visualización.
 
+[Enlace a la visualización](https://public.flourish.studio/story/3692812/)
+
 ## Objetivo del proyecto
 
 El objetivo del proyecto es analizar cómo varía el perfil físico de los atletas olímpicos en función de la disciplina deportiva, el sexo, la edad y la obtención de medalla.
@@ -78,11 +80,9 @@ olympic-athletes-visualization/
 │       └── delta_bmi_medallistas.csv
 │
 ├── scripts/
-│   ├── tablas_flourish.py
-│   └── utilidades.py
-│
-└── notebooks/
-    └── exploracion_inicial.ipynb
+    ├── tablas_flourish.py
+    └── utilidades.py
+
 ```
 
 ## Preparación de los datos
