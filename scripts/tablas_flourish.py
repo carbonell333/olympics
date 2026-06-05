@@ -1,12 +1,12 @@
 """
-Generacion de tablas para Infogram.
+Generacion de tablas para Flourish.
 
 Este script prepara las tablas finales utilizadas en la visualizacion
 storytelling del proyecto "Canon biometrico del atleta olimpico".
 
 Para ejecutarlo desde la raiz del proyecto:
 
-    python scripts/tablas_infogram.py
+    python scripts/tablas_flourish.py
 
 Los archivos generados se guardan en:
 
@@ -122,7 +122,7 @@ def crear_cobertura_biometrica(df: pd.DataFrame) -> pd.DataFrame:
 def crear_altura_peso_disciplina(df_bio: pd.DataFrame) -> pd.DataFrame:
     """
     Crea tabla con medianas de altura y peso por disciplina y sexo.
-    Pensada para un scatter plot en Infogram.
+    Pensada para un scatter plot en Flourish.
     """
     tabla = (
         df_bio
@@ -290,7 +290,7 @@ def main() -> None:
     print("Filtrando datos biometricos...")
     df_bio = filtrar_biometria(df)
 
-    print("Creando tablas para Infogram...")
+    print("Creando tablas para Flourish...")
 
     resumen_dataset = crear_resumen_dataset(df, df_bio)
     contexto_participacion = crear_contexto_participacion(df)
