@@ -4,7 +4,7 @@
 
 Este repositorio contiene el código utilizado para preparar los datos del proyecto de visualización **“Canon biométrico del atleta olímpico: perfil físico, disciplina y rendimiento en los Juegos Olímpicos”**, desarrollado a partir del dataset *120 Years of Olympic Athletes Dataset*.
 
-La visualización final se realiza en **Infogram**, mientras que este repositorio recoge el proceso reproducible de limpieza, transformación y generación de las tablas utilizadas en dicha visualización.
+La visualización final se realiza en **Flourish**, mientras que este repositorio recoge el proceso reproducible de limpieza, transformación y generación de las tablas utilizadas en dicha visualización.
 
 ## Objetivo del proyecto
 
@@ -78,7 +78,7 @@ olympic-athletes-visualization/
 │       └── delta_bmi_medallistas.csv
 │
 ├── scripts/
-│   ├── tablas_infogram.py
+│   ├── tablas_flourish.py
 │   └── utilidades.py
 │
 └── notebooks/
@@ -96,7 +96,7 @@ El procesamiento de los datos se realiza mediante scripts en Python. El flujo pr
 5. Creación de una variable binaria de medallista.
 6. Subdivisión de disciplinas deportivas, especialmente atletismo.
 7. Filtrado de registros para análisis biométrico.
-8. Exportación de tablas finales para Infogram.
+8. Exportación de tablas finales para Flourish.
 
 ## Variables derivadas
 
@@ -158,7 +158,7 @@ El contexto global de participación olímpica se calcula utilizando todo el dat
 
 ## Tablas generadas
 
-Los archivos generados en `data/processed/` son los que se utilizan posteriormente en Infogram.
+Los archivos generados en `data/processed/` son los que se utilizan posteriormente en Flourish.
 
 | Archivo                               | Descripción                                                   |
 | ------------------------------------- | ------------------------------------------------------------- |
@@ -174,7 +174,7 @@ Los archivos generados en `data/processed/` son los que se utilizan posteriormen
 
 ## Visualización final
 
-La visualización final se estructura como una pieza de storytelling visual en Infogram. El objetivo no es construir un dashboard exploratorio, sino una narrativa visual guiada en torno a una pregunta principal: si existe o no un canon biométrico común en los Juegos Olímpicos.
+La visualización final se estructura como una pieza de storytelling visual en Flourish. El objetivo no es construir un dashboard exploratorio, sino una narrativa visual guiada en torno a una pregunta principal: si existe o no un canon biométrico común en los Juegos Olímpicos.
 
 Cada bloque responde a una pregunta concreta:
 
@@ -216,10 +216,10 @@ pip install -r requirements.txt
 
 ## Ejecución
 
-Para generar las tablas procesadas utilizadas en Infogram, ejecutar desde la raíz del proyecto:
+Para generar las tablas procesadas utilizadas en Flourish, ejecutar desde la raíz del proyecto:
 
 ```bash
-python scripts/tablas_infogram.py
+python scripts/tablas_flourish.py
 ```
 
 El script lee el archivo original desde:
@@ -259,9 +259,9 @@ jupyter
 
 ## Herramienta de visualización
 
-La visualización final se desarrolla en **Infogram**, utilizando las tablas procesadas generadas por los scripts de este repositorio.
+La visualización final se desarrolla en **Flowrish**, utilizando las tablas procesadas generadas por los scripts de este repositorio.
 
-Infogram se emplea para:
+Flourish se emplea para:
 
 * diseñar la narrativa visual;
 * integrar gráficos, textos e iconos;
@@ -291,4 +291,4 @@ El dataset original pertenece a su fuente correspondiente y debe citarse según 
 
 Proyecto desarrollado como parte de una práctica de visualización de datos.
 
-La visualización final se publica en Infogram y el presente repositorio recoge el flujo reproducible de preparación de datos.
+La visualización final se publica en Flourish y el presente repositorio recoge el flujo reproducible de preparación de datos.
